@@ -28,9 +28,9 @@ The Medical NER is significant for several reasons:
 This project will focus on answering the following research questions:
 
 1. What fine-tuning strategies (e.g., architecture modifications, training data, hyperparameter tuning) are most effective in optimizing the DilBERT model's performance for disease entity recognition?
-2. How does the pretrained DilBERT model leverage transfer learning to improve NER accuracy for disease entities compared to models trained from scratch?
-3. Can the DilBERT model be effectively adapted to recognize disease entities in specific subdomains of biomedicine, such as genetics, epidemiology, or clinical medicine?
-4. How well does the DilBERT-based NER model generalize to different types of texts, including research articles, clinical notes, and social media posts, while maintaining high accuracy?
+2. How does the pretrained BioBert model leverage transfer learning to improve NER accuracy for disease entities compared to models trained from scratch?
+3. Can the BioBert model be effectively adapted to recognize disease entities in specific subdomains of biomedicine, such as genetics, epidemiology, or clinical medicine?
+4. How well does the BioBert-based NER model generalize to different types of texts, including research articles, clinical notes, and social media posts, while maintaining high accuracy?
 
 ## 3. Data 
 
@@ -56,4 +56,4 @@ This is a NER model
 
 #### Which variables/columns may be selected as features/predictors for your ML models?
 
-Using the ner tags and the pre-trained model
+Using the ner tags and the pre-trained BioBert model
