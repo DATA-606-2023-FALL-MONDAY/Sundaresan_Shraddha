@@ -37,7 +37,9 @@ This project will focus on answering the following research questions:
 Describe the datasets you are using to answer your research questions.
 
 - **Source:** [Link](https://huggingface.co/datasets/ncbi_disease)
+  
 - **Size:** - 1.55 MB
+  
 - **Shape:** -
   - Train - 5433 rows
   - Validation - 924 rows
@@ -52,8 +54,8 @@ Describe the datasets you are using to answer your research questions.
 
 #### Which variable/column will be your target/label in your ML model?
 
-This is a NER model
+The ner_tags is what will be predicted based on the tokens. The model tries to understand the sematics of the word to categorize the diseases entities.
 
 #### Which variables/columns may be selected as features/predictors for your ML models?
 
-Using the ner tags and the pre-trained BioBert model
+Using the ner tags and the pre-trained BioBert model as a tokenizer.
