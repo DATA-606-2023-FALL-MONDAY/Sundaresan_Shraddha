@@ -125,6 +125,7 @@ After we have defined the parameters , simply run trainer.train() to train the m
 
 ## 6. RESULT
 On applying the trained model to the validation dataset it produces a confusion metrics as below-
+
 ![image](https://github.com/DATA-606-2023-FALL-MONDAY/Sundaresan_Shraddha/assets/55248640/86288a8c-ac19-4e25-9619-7f1afa8986a9)
 
 | Metrics       | Validation                                                    | Train             |
