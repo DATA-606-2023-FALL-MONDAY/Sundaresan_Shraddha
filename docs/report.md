@@ -134,4 +134,19 @@ On applying the trained model to the validation dataset it produces a confusion 
 | Recall                | 0.95                               | 0.93     |
 | F1-Score              | 0.95                     | 0.94    |
 
+## 7.Conclusion
+ Our findings illustrate that approaching this task as a Named Entity Recognition (NER) problem, coupled with a combination of pre-trained model fine-tuning, proves to be an effective strategy. This effectiveness holds true even when confronted with limited training data.This investigation is conducted using the NCBI dataset and a pre-trained medical BERT model works better than the state of the art models.
+
+
+## 8.Reference
+1. NCI cancer statistics [internet] 2004. https://www.cancer.gov/about-cancer/understanding/statistics
+
+2. Wei C.-H., Harris B.R., Donghui Li and T.Z.B., Huala E., Kao H.-Y., Lu Z. Accelerating Literature Curation with Text-Mining Tools: A Case Study of Using PubTator to Curate Genes in PubMed Abstracts. Database. 2012 [PMC free article]
+
+3. Devlin J., Chang M.-W., Lee K., Toutanova K.B. 2019. Pre-training of deep bidirectional transformers for language understanding; pp. 4171–4186. (Proc. Of NAACL-HLT, Volume 1 (Long and Short Papers)). [Google Scholar]
+
+4. Liu Y., Ott M., Goyal N., Du J., Joshi M., Chen D., Levy O., Lewis M., Zettlemoyer L., Stoyanov V. Roberta: a robustly optimized bert pretraining approach. arXiv. 2019 doi: 10.48550/arXiv.1907.11692. Preprint at. [CrossRef] [Google Scholar]
+
+5. Neumann M., King D., Beltagy I., Ammar W. 2019. ScispaCy: Fast and Robust Models for Biomedical Natural Language Processing; pp. 319–327
+
 
