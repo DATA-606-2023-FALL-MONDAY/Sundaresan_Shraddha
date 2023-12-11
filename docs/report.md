@@ -58,7 +58,7 @@ This project will focus on answering the following research questions:
   - 1 = First token of a disease 
   - 2 = Subsequent disease tokens
 
-## 3. Data Wrangling
+## 4. Data Wrangling
 ### Data Cleaning-
 
 In this stage, we will preprocess the text by eliminating punctuation, special characters, and stop words, while also converting the text to lowercase. Subsequently, we will perform lemmatization to ensure accurate identification of similar occurrences of words. This is performed to the column "tokens" which constitute the words in the NCBI medical dataset.
@@ -71,7 +71,7 @@ In this phase, we create a WordCloud to analyze the prevalent words in the medic
 
 The visualization above indicates that the words "gene," "mutation," "patient," and "cancer," among others, are the most frequently occurring. Additionally, it can be observed from the visualization that the prevalent disease in the dataset is likely to be cancer.
 
-## 4. Fine-tuning
+## 5. Fine-tuning
 ### Tokenizing
 
 The initial phase of fine-tuning involves tokenization, where the text in the "tokens" column is tokenized using the BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext pre-trained tokenizer. Additionally, the data undergoes truncation and padding to ensure a consistent sequence of vectors across the entire dataset.
@@ -122,3 +122,15 @@ The training process will involve 35 steps or batches of medical data before com
 We can define the training parameters in the TrainingArguments and Trainer class as well as train the model with a single command.Next, we specify some training parameters, set the pretrained model, train data and evaluation data in the TrainingArgs and Trainer class.
 
 After we have defined the parameters , simply run trainer.train() to train the model.
+
+## 6. RESULT
+On applying the trained model to the validation dataset it produces a confusion metrics as below-
+![image](https://github.com/DATA-606-2023-FALL-MONDAY/Sundaresan_Shraddha/assets/55248640/86288a8c-ac19-4e25-9619-7f1afa8986a9)
+
+| Metrics       | Validation                                                    | Train             |
+| ----------------------| ------------------------------------------------------------- | ----------------- |
+| Precision                    | 0.96                         | 0.95          |
+| Recall                | 0.95                               | 0.93     |
+| F1-Score              | 0.95                     | 0.94    |
+
+
