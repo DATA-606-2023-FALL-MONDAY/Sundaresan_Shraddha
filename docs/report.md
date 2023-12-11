@@ -66,3 +66,7 @@ In this stage, we will preprocess the text by eliminating punctuation, special c
 ### EDA-
 
 In this phase, we create a WordCloud to analyze the prevalent words in the medical dataset. The size of the words in the visualization corresponds to their frequency, with larger words indicating higher occurrences.
+
+![image](https://github.com/DATA-606-2023-FALL-MONDAY/Sundaresan_Shraddha/assets/55248640/02c0ba1c-c921-4709-b47f-51ec46343a69)
+
+The visualization above indicates that the words "gene," "mutation," "patient," and "cancer," among others, are the most frequently occurring. Additionally, it can be observed from the visualization that the prevalent disease in the dataset is likely to be cancer.
