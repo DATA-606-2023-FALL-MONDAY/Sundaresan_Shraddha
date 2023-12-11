@@ -113,5 +113,4 @@ The learning rate is set to 2e-5, indicating a relatively small step size to avo
 In this case, the model is set to train on the CPU, which might be suitable for smaller datasets or when GPU resources are limited.
 
 8. STEPS = 35
-
-The training process will involve 35 steps or batches of medical data before completing the specified number of epochs.
+   The training process will involve 35 steps or batches of medical data before completing the specified number of epochs.
