@@ -51,9 +51,9 @@ This project will focus on answering the following research questions:
 
 *Potential values:*
 
--**id:** Sentence identifier.
--**tokens:** Array of tokens composing a sentence.
--**ner_tags:** Array of tags
+- **id:** Sentence identifier.
+- **tokens:** Array of tokens composing a sentence.
+- **ner_tags:** Array of tags
   - 0 = No disease mentioned 
   - 1 = First token of a disease 
   - 2 = Subsequent disease tokens
