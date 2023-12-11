@@ -91,26 +91,27 @@ We can define the training parameters in the TrainingArguments and Trainer class
 After we have defined the parameters , simply run trainer.train() to train the model.
 
 ### Parameters for training the model
-1. NUM_OF_EPOCHS = 3:
+1. NUM_OF_EPOCHS = 3
 In this case, the model will iterate over the entire medical dataset three times during the training process.
 
-2. BATCH_SIZE = 16:
-Explanation: During each training step, 16 medical samples will be processed together to update the model's parameters.
+2. BATCH_SIZE = 16
+During each training step, 16 medical samples will be processed together to update the model's parameters.
 
-3. STRATEGY = "epoch":
-Explanation: In this context, the strategy is set to "epoch," implying that certain actions or adjustments may take place after each epoch.
+3. STRATEGY = "epoch"
+In this context, the strategy is set to "epoch," implying that certain actions or adjustments may take place after each epoch.
 
-4. REPORTS_TO = "tensorboard":
-Explanation: The training progress and metrics will be reported to TensorBoard, a visualization tool for monitoring and analyzing the training process.
+4. REPORTS_TO = "tensorboard"
+The training progress and metrics will be reported to TensorBoard, a visualization tool for monitoring and analyzing the training process.
 
-5. WEIGHT_DECAY = 0.01:
-Explanation: A weight decay of 0.01 means that the optimization process will be biased towards smaller weights, helping prevent overfitting.
+5. WEIGHT_DECAY = 0.01
+A weight decay of 0.01 means that the optimization process will be biased towards smaller weights, helping prevent overfitting.
 
-6. LR = 2e-5:
-Explanation: The learning rate is set to 2e-5, indicating a relatively small step size to avoid overshooting the optimal parameters during training.
+6. LR = 2e-5
+The learning rate is set to 2e-5, indicating a relatively small step size to avoid overshooting the optimal parameters during training.
 
-7. DEVICE = torch.device("cpu"):
-Explanation: In this case, the model is set to train on the CPU, which might be suitable for smaller datasets or when GPU resources are limited.
+7. DEVICE = torch.device("cpu")
+In this case, the model is set to train on the CPU, which might be suitable for smaller datasets or when GPU resources are limited.
 
-8. STEPS = 35:
-Explanation: The training process will involve 35 steps or batches of medical data before completing the specified number of epochs.
+8. STEPS = 35
+
+The training process will involve 35 steps or batches of medical data before completing the specified number of epochs.
