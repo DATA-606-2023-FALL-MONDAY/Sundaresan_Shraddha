@@ -64,3 +64,5 @@ This project will focus on answering the following research questions:
 In this stage, we will preprocess the text by eliminating punctuation, special characters, and stop words, while also converting the text to lowercase. Subsequently, we will perform lemmatization to ensure accurate identification of similar occurrences of words. This is performed to the column "tokens" which constitute the words in the NCBI medical dataset.
 
 ### EDA-
+
+In this phase, we create a WordCloud to analyze the prevalent words in the medical dataset. The size of the words in the visualization corresponds to their frequency, with larger words indicating higher occurrences.
