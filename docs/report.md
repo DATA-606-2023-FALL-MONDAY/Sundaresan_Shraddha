@@ -58,3 +58,9 @@ This project will focus on answering the following research questions:
   - 1 = First token of a disease 
   - 2 = Subsequent disease tokens
 
+## 3. Data Wrangling
+### Data Cleaning-
+
+In this stage, we will preprocess the text by eliminating punctuation, special characters, and stop words, while also converting the text to lowercase. Subsequently, we will perform lemmatization to ensure accurate identification of similar occurrences of words. This is performed to the column "tokens" which constitute the words in the NCBI medical dataset.
+
+### EDA-
