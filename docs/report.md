@@ -44,18 +44,17 @@ This project will focus on answering the following research questions:
   
 | Column Name           | Description                                                   | Type             |
 | ----------------------| ------------------------------------------------------------- | ----------------- |
-| CAMIS                 | Unique identifier for the restaurant                          | Plain Text       |
-| DBA                   | Name of the restaurant                                        | Plain Text       |
-| BORO                  | Borough in which the entity (restaurant) is located.;• 1 = MANHATTAN • 2 = BRONX • 3 = BROOKLYN • 4 = QUEENS • 5 = STATEN ISLAND • Missing;                        | Plain Text       |
-| BUILDING              | Building number for the restaurant location                   | Plain Text       |
-| STREET                | Street name for the restaurant location                       | Plain Text       |
+| id                    | Unique identifier for each sentence                           | Numeric          |
+| tokens                | List of words in each sentence                                | Plain Text       |
+| ner_tags              | Array of tags  0 = No disease mentioned, 1 = First token of a disease, 2 = Subsequent disease tokens                      | Numeric    |
 
 
 *Potential values:*
+
 **id:** Sentence identifier.
 **tokens:** Array of tokens composing a sentence.
 **ner_tags:** Array of tags
   0 = No disease mentioned 
   1 = First token of a disease 
-  2 = Subsequent disease tokens.
+  2 = Subsequent disease tokens
 
